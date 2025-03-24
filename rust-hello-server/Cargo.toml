@@ -1,0 +1,15 @@
+[package]
+name = "rust-hello-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ axum = { version = "0.8.0", features = ["multipart"] }
+tokio = { version = "1.43.0", features = ["full"] }
+flate2 = "1.0"
+
+[[bin]]
+name = "rust-hello-server"
+path = "src/main.rs"
+
+

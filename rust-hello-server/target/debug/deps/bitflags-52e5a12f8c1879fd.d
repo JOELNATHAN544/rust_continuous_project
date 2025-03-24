@@ -1,0 +1,11 @@
+/home/joel-wanko/Projects/rust/rust-hello-server/target/debug/deps/libbitflags-52e5a12f8c1879fd.rmeta: /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/lib.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/iter.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/parser.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/traits.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/public.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/internal.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/external.rs
+
+/home/joel-wanko/Projects/rust/rust-hello-server/target/debug/deps/bitflags-52e5a12f8c1879fd.d: /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/lib.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/iter.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/parser.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/traits.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/public.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/internal.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/external.rs
+
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/lib.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/iter.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/parser.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/traits.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/public.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/internal.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.9.0/src/external.rs:

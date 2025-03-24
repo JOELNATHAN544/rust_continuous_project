@@ -1,0 +1,12 @@
+/home/joel-wanko/Projects/rust/rust-hello-server/target/debug/deps/libtinystr-6fa8a8bc2de70bd1.rmeta: /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/lib.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/macros.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/ascii.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/asciibyte.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/error.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/int_ops.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/unvalidated.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/ule.rs
+
+/home/joel-wanko/Projects/rust/rust-hello-server/target/debug/deps/tinystr-6fa8a8bc2de70bd1.d: /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/lib.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/macros.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/ascii.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/asciibyte.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/error.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/int_ops.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/unvalidated.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/ule.rs
+
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/lib.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/macros.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/ascii.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/asciibyte.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/error.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/int_ops.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/unvalidated.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.6/src/ule.rs:

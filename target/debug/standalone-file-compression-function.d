@@ -1,0 +1,1 @@
+/home/joel-wanko/Projects/rust/rust_continuous_project1/target/debug/standalone-file-compression-function: /home/joel-wanko/Projects/rust/rust_continuous_project1/standalone-file-compression-function/src/main.rs

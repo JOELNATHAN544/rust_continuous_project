@@ -1,0 +1,1 @@
+/home/joel-wanko/Projects/rust/rust-hello-server/target/debug/rust-hello-server: /home/joel-wanko/Projects/rust/rust-hello-server/public/index.html /home/joel-wanko/Projects/rust/rust-hello-server/src/loadfile.rs /home/joel-wanko/Projects/rust/rust-hello-server/src/main.rs

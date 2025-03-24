@@ -1,0 +1,1 @@
+/home/joel-wanko/Projects/rust/rust-hello-server/target/debug/rust-cli-file-uploader: /home/joel-wanko/Projects/rust/rust-hello-server/rust-cli-file-uploader/src/loadfile.rs /home/joel-wanko/Projects/rust/rust-hello-server/rust-cli-file-uploader/src/main.rs

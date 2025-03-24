@@ -1,0 +1,10 @@
+/home/joel-wanko/Projects/rust/rust-hello-server/target/debug/deps/libzerovec_derive-6cb7aaca18c4a733.so: /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/lib.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/make_ule.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/make_varule.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/ule.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/utils.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/varule.rs
+
+/home/joel-wanko/Projects/rust/rust-hello-server/target/debug/deps/zerovec_derive-6cb7aaca18c4a733.d: /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/lib.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/make_ule.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/make_varule.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/ule.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/utils.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/varule.rs
+
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/lib.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/make_ule.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/make_varule.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/ule.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/utils.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zerovec-derive-0.10.3/src/varule.rs:

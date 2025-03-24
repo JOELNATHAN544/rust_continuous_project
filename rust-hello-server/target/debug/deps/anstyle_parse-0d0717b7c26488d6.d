@@ -1,0 +1,9 @@
+/home/joel-wanko/Projects/rust/rust-hello-server/target/debug/deps/libanstyle_parse-0d0717b7c26488d6.rmeta: /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/lib.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/params.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/state/mod.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/state/definitions.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/state/table.rs
+
+/home/joel-wanko/Projects/rust/rust-hello-server/target/debug/deps/anstyle_parse-0d0717b7c26488d6.d: /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/lib.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/params.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/state/mod.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/state/definitions.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/state/table.rs
+
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/lib.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/params.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/state/mod.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/state/definitions.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.6/src/state/table.rs:

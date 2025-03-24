@@ -1,0 +1,1 @@
+/home/joel-wanko/Projects/rust/rust_continuous_project1/target/debug/rust-cli-file-uploader: /home/joel-wanko/Projects/rust/rust_continuous_project1/rust-cli-file-uploader/src/compress.rs /home/joel-wanko/Projects/rust/rust_continuous_project1/rust-cli-file-uploader/src/loadfile.rs /home/joel-wanko/Projects/rust/rust_continuous_project1/rust-cli-file-uploader/src/main.rs

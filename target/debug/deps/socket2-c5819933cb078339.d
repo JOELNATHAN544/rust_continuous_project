@@ -1,0 +1,9 @@
+/home/joel-wanko/Projects/rust/rust_continuous_project1/target/debug/deps/libsocket2-c5819933cb078339.rmeta: /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/lib.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/sockaddr.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/socket.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/sockref.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/sys/unix.rs
+
+/home/joel-wanko/Projects/rust/rust_continuous_project1/target/debug/deps/socket2-c5819933cb078339.d: /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/lib.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/sockaddr.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/socket.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/sockref.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/sys/unix.rs
+
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/lib.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/sockaddr.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/socket.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/sockref.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.8/src/sys/unix.rs:
