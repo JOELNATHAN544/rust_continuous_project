@@ -62,6 +62,7 @@
 use crate::compress::compress;
 use crate::database::{self, Process};
 use std::path::Path;
+// use sqlx::postgres::PgPoolOptions;
 use tokio::fs::File as TokioFile;
 use tokio::io::AsyncWriteExt;
 use sqlx::PgPool;
@@ -90,6 +91,12 @@ pub struct FileData {
 pub async fn upload(pool: &PgPool, file_content: Vec<FileData>) -> anyhow::Result<()> {
     let mut file_paths = Vec::new();
     let mut tasks = Vec::new();
+    // dotenvy::dotenv().ok();
+    // let database_url = std::env::var("DATABASE_URL")?;
+    // let pool = PgPoolOptions::new()
+    //     .max_connections(5)
+    //     .connect(&database_url)
+    //     .await?;
 
     for file in file_content {
         let file_path = Path::new("files").join(&file.file_name);

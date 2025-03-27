@@ -31,7 +31,7 @@ pub async fn database(pool: &PgPool, name: &str, status: &str) -> Result<Process
             SELECT FROM pg_tables 
             WHERE schemaname = 'public' 
             AND tablename = 'processes'
-        )"
+        )",
     )
     .fetch_one(pool)
     .await?;
@@ -40,7 +40,7 @@ pub async fn database(pool: &PgPool, name: &str, status: &str) -> Result<Process
     if !table_exists {
         create_process_table(pool).await?;
     }
-    
+
     // Insert the new process
     let process = sqlx::query_as::<_, Process>(
         r#"
@@ -54,5 +54,6 @@ pub async fn database(pool: &PgPool, name: &str, status: &str) -> Result<Process
     .fetch_one(pool)
     .await?;
 
+    println!("✅ Process recorded in database: {:?}", process);
     Ok(process)
 }
