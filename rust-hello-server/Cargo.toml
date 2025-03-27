@@ -7,6 +7,7 @@ edition = "2021"
  axum = { version = "0.8.0", features = ["multipart"] }
 tokio = { version = "1.43.0", features = ["full"] }
 flate2 = "1.0"
+sqlx = { version = "0.8.3", features = ["postgres", "runtime-tokio-native-tls"] }
 
 [[bin]]
 name = "rust-hello-server"

@@ -1,0 +1,6 @@
+/home/joel-wanko/Projects/rust/rust_continuous_project/target/debug/deps/libnative_tls-93a4bab7f893d342.rmeta: /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/native-tls-0.2.14/src/lib.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/native-tls-0.2.14/src/imp/openssl.rs
+
+/home/joel-wanko/Projects/rust/rust_continuous_project/target/debug/deps/native_tls-93a4bab7f893d342.d: /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/native-tls-0.2.14/src/lib.rs /home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/native-tls-0.2.14/src/imp/openssl.rs
+
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/native-tls-0.2.14/src/lib.rs:
+/home/joel-wanko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/native-tls-0.2.14/src/imp/openssl.rs:

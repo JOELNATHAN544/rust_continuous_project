@@ -1,5 +1,8 @@
 use axum::{routing::get, Router};
 use loadfile::{index, upload};
+use sqlx::postgres::PgPoolOptions;
+use sqlx::PgPool;
+use std::env;
 
 #[tokio::main]
 async fn main() {
@@ -9,12 +12,11 @@ async fn main() {
         .await
         .expect("Failed to start listener!");
 
-
     axum::serve(listener, app)
         .await
         .expect("Failed to serve 'app'!");
 }
 
-mod loadfile;
 mod compress;
+mod loadfile;
 //main.rs

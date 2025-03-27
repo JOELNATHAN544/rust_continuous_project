@@ -10,14 +10,14 @@ pub fn compress(files: Vec<String>) {
     let output_dir = Path::new("files");
     fs::create_dir_all(output_dir).expect("Failed to create 'files/' directory");
 
-    println!("\nSelect a compression level (1, 2, 3):");
+    println!("\nSelect a compression level between (1, 2, 3):");
     println!("1. Default\n2. Fastest\n3. Best");
 
     let mut choice = String::new();
     io::stdin()
         .read_line(&mut choice)
         .expect("Failed to read input");
-
+ 
     let compression = match choice.trim().parse::<u32>() {
         Ok(1) => Compression::default(),
         Ok(2) => Compression::fast(),

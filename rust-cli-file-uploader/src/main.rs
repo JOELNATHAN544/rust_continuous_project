@@ -1,26 +1,25 @@
 use crate::loadfile::{index, upload, FileData};
 use axum::{routing::get, Router};
 use clap::Parser;
-use std::{fs::File, io::Read, path::Path};
-//use tokio::fs;
+use dotenvy::dotenv;
+use sqlx::postgres::PgPoolOptions;
+use std::{env, fs::File, io::Read, path::Path};
 use tokio::{fs, net::TcpListener};
 
 #[derive(Parser)]
 #[command(name = "file_uploader")]
 #[command(about = "A simple file uploader", long_about = None)]
 struct Cli {
-    /// Paths to the files to upload (supports multiple)
     file_paths: Vec<String>,
 }
 
 #[tokio::main]
-async fn main() {
-    // Parse command-line arguments
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let cli = Cli::parse();
-
     let mut file_list = Vec::new();
+    dotenv().ok();
+    let database_url = env::var("DATABASE_URL").expect("DATABASE_URL must be set");
 
-    // Ensure the 'files/' directory exists
     let dir_path = Path::new("files");
     if !dir_path.exists() {
         fs::create_dir(dir_path)
@@ -28,7 +27,6 @@ async fn main() {
             .expect("Failed to create 'files/' directory");
     }
 
-    // Read each file and store data
     for file_path in cli.file_paths {
         let mut file = File::open(&file_path).expect("Failed to open file");
         let mut file_data = Vec::new();
@@ -41,31 +39,32 @@ async fn main() {
             .unwrap_or("uploaded_file")
             .to_string();
 
-        // Store in vector
         file_list.push(FileData {
             file_data,
             file_name,
         });
     }
 
-    // Upload all files
-    upload(file_list).await;
+    let pool = PgPoolOptions::new()
+        .max_connections(5)
+        .connect(&database_url)
+        .await
+        .expect("Failed to create database pool");
 
-    // Set up the Axum router
+    upload(&pool, file_list).await?;
+
     let app = Router::new().route("/", get(index));
-
-    // Bind the server
     let listener = TcpListener::bind("0.0.0.0:3000")
         .await
         .expect("Failed to start listener!");
-
     println!("🚀 Server running on http://localhost:3000");
-
-    // Serve the application
     axum::serve(listener, app.into_make_service())
         .await
         .expect("Failed to serve 'app'!");
+
+    Ok(())
 }
 
 mod compress;
+mod database;
 mod loadfile;
